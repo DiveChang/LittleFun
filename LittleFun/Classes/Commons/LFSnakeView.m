@@ -87,6 +87,7 @@
 }
 
 - (void)snakeRunning {
+    // 修改snake位置
     LFPoint *first = [_sankeData objectAtIndex:_sankeData.count-1];
     LFPoint *headPoint = [[LFPoint alloc] initWithX:first.x andY:first.y];
     switch (snakeOrient) {
