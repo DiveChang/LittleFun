@@ -10,8 +10,6 @@
 		1B00E5DA1CCE6054008F2363 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B00E5D91CCE6054008F2363 /* main.m */; };
 		1B00E5DD1CCE6054008F2363 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B00E5DC1CCE6054008F2363 /* AppDelegate.m */; };
 		1B00E5E31CCE6054008F2363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B00E5E11CCE6054008F2363 /* Main.storyboard */; };
-		1B00E5E51CCE6054008F2363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B00E5E41CCE6054008F2363 /* Assets.xcassets */; };
-		1B00E5E81CCE6054008F2363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B00E5E61CCE6054008F2363 /* LaunchScreen.storyboard */; };
 		1B00E5F31CCE6054008F2363 /* LittleFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B00E5F21CCE6054008F2363 /* LittleFunTests.m */; };
 		1B00E5FE1CCE6054008F2363 /* LittleFunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B00E5FD1CCE6054008F2363 /* LittleFunUITests.m */; };
 		1B00E6121CD08866008F2363 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B00E6111CD08866008F2363 /* HomeViewController.m */; };
@@ -21,6 +19,7 @@
 		1B00E62B1CD0EF84008F2363 /* LFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B00E62A1CD0EF84008F2363 /* LFNavigationController.m */; };
 		1B0155B21CD51F9B00FB21A8 /* LFGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0155B11CD51F9B00FB21A8 /* LFGridView.m */; };
 		1B0155B51CD5F5F500FB21A8 /* SnakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0155B41CD5F5F500FB21A8 /* SnakeViewController.m */; };
+		1B6B04FD1CDF5F42005D5301 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B04FC1CDF5F42005D5301 /* Images.xcassets */; };
 		1BCBD5931CDD851100E98477 /* LFSnakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBD5921CDD851100E98477 /* LFSnakeView.m */; };
 		1BCBD5961CDD853100E98477 /* LFPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBD5951CDD853100E98477 /* LFPoint.m */; };
 		1BCBD5981CDD8F2A00E98477 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCBD5971CDD8F2A00E98477 /* AudioToolbox.framework */; };
@@ -52,8 +51,6 @@
 		1B00E5DB1CCE6054008F2363 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B00E5DC1CCE6054008F2363 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1B00E5E21CCE6054008F2363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1B00E5E41CCE6054008F2363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1B00E5E71CCE6054008F2363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B00E5E91CCE6054008F2363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B00E5EE1CCE6054008F2363 /* LittleFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B00E5F21CCE6054008F2363 /* LittleFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleFunTests.m; sourceTree = "<group>"; };
@@ -75,6 +72,7 @@
 		1B0155B11CD51F9B00FB21A8 /* LFGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFGridView.m; path = LittleFun/Classes/Commons/LFGridView.m; sourceTree = SOURCE_ROOT; };
 		1B0155B31CD5F5F500FB21A8 /* SnakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakeViewController.h; path = LittleFun/Classes/Commons/SnakeViewController.h; sourceTree = SOURCE_ROOT; };
 		1B0155B41CD5F5F500FB21A8 /* SnakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnakeViewController.m; path = LittleFun/Classes/Commons/SnakeViewController.m; sourceTree = SOURCE_ROOT; };
+		1B6B04FC1CDF5F42005D5301 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1BCBD5911CDD851100E98477 /* LFSnakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFSnakeView.h; path = LittleFun/Classes/Commons/LFSnakeView.h; sourceTree = SOURCE_ROOT; };
 		1BCBD5921CDD851100E98477 /* LFSnakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFSnakeView.m; path = LittleFun/Classes/Commons/LFSnakeView.m; sourceTree = SOURCE_ROOT; };
 		1BCBD5941CDD853100E98477 /* LFPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFPoint.h; path = LittleFun/Classes/Commons/LFPoint.h; sourceTree = SOURCE_ROOT; };
@@ -138,9 +136,8 @@
 				1B00E5DB1CCE6054008F2363 /* AppDelegate.h */,
 				1B00E5DC1CCE6054008F2363 /* AppDelegate.m */,
 				1B00E5E11CCE6054008F2363 /* Main.storyboard */,
-				1B00E5E41CCE6054008F2363 /* Assets.xcassets */,
-				1B00E5E61CCE6054008F2363 /* LaunchScreen.storyboard */,
 				1B00E5E91CCE6054008F2363 /* Info.plist */,
+				1B6B04FC1CDF5F42005D5301 /* Images.xcassets */,
 				1B00E5D81CCE6054008F2363 /* Supporting Files */,
 			);
 			path = LittleFun;
@@ -346,9 +343,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B00E5E81CCE6054008F2363 /* LaunchScreen.storyboard in Resources */,
-				1B00E5E51CCE6054008F2363 /* Assets.xcassets in Resources */,
 				1B00E6271CD0D902008F2363 /* Background.jpg in Resources */,
+				1B6B04FD1CDF5F42005D5301 /* Images.xcassets in Resources */,
 				1BCBD5A21CDF29E700E98477 /* gu.mp3 in Resources */,
 				1BCBD59C1CDEE5AE00E98477 /* app.png in Resources */,
 				1BCBD5A01CDF29D800E98477 /* diceVoice.mp3 in Resources */,
@@ -428,14 +424,6 @@
 				1B00E5E21CCE6054008F2363 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1B00E5E61CCE6054008F2363 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B00E5E71CCE6054008F2363 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -529,13 +517,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LittleFun/LittleFun.pch";
 				INFOPLIST_FILE = LittleFun/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhangdi.LittleFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -543,13 +533,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LittleFun/LittleFun.pch";
 				INFOPLIST_FILE = LittleFun/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhangdi.LittleFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
