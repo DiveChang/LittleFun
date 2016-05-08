@@ -17,7 +17,6 @@
 		1B00E6121CD08866008F2363 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B00E6111CD08866008F2363 /* HomeViewController.m */; };
 		1B00E61A1CD090E6008F2363 /* DiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B00E6191CD090E6008F2363 /* DiceViewController.m */; };
 		1B00E61D1CD090F8008F2363 /* DiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B00E61C1CD090F8008F2363 /* DiceView.m */; };
-		1B00E6211CD0CB70008F2363 /* diceVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B00E6201CD0CB70008F2363 /* diceVoice.mp3 */; };
 		1B00E6271CD0D902008F2363 /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B00E6261CD0D902008F2363 /* Background.jpg */; };
 		1B00E62B1CD0EF84008F2363 /* LFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B00E62A1CD0EF84008F2363 /* LFNavigationController.m */; };
 		1B0155B21CD51F9B00FB21A8 /* LFGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0155B11CD51F9B00FB21A8 /* LFGridView.m */; };
@@ -26,6 +25,8 @@
 		1BCBD5961CDD853100E98477 /* LFPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBD5951CDD853100E98477 /* LFPoint.m */; };
 		1BCBD5981CDD8F2A00E98477 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCBD5971CDD8F2A00E98477 /* AudioToolbox.framework */; };
 		1BCBD59C1CDEE5AE00E98477 /* app.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BCBD59B1CDEE5AE00E98477 /* app.png */; };
+		1BCBD5A01CDF29D800E98477 /* diceVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BCBD59F1CDF29D800E98477 /* diceVoice.mp3 */; };
+		1BCBD5A21CDF29E700E98477 /* gu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BCBD5A11CDF29E700E98477 /* gu.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +68,6 @@
 		1B00E61B1CD090F8008F2363 /* DiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceView.h; sourceTree = "<group>"; };
 		1B00E61C1CD090F8008F2363 /* DiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceView.m; sourceTree = "<group>"; };
 		1B00E61F1CD0A222008F2363 /* LittleFun.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LittleFun.pch; sourceTree = "<group>"; };
-		1B00E6201CD0CB70008F2363 /* diceVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diceVoice.mp3; sourceTree = "<group>"; };
 		1B00E6261CD0D902008F2363 /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
 		1B00E6291CD0EF84008F2363 /* LFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNavigationController.h; sourceTree = "<group>"; };
 		1B00E62A1CD0EF84008F2363 /* LFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNavigationController.m; sourceTree = "<group>"; };
@@ -81,6 +81,8 @@
 		1BCBD5951CDD853100E98477 /* LFPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFPoint.m; path = LittleFun/Classes/Commons/LFPoint.m; sourceTree = SOURCE_ROOT; };
 		1BCBD5971CDD8F2A00E98477 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1BCBD59B1CDEE5AE00E98477 /* app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app.png; sourceTree = "<group>"; };
+		1BCBD59F1CDF29D800E98477 /* diceVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diceVoice.mp3; sourceTree = "<group>"; };
+		1BCBD5A11CDF29E700E98477 /* gu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gu.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				1BCBD5971CDD8F2A00E98477 /* AudioToolbox.framework */,
+				1BCBD59E1CDF29D800E98477 /* Voice */,
 				1B00E6251CD0D7BD008F2363 /* Images */,
-				1B00E6201CD0CB70008F2363 /* diceVoice.mp3 */,
 				1B00E5D91CCE6054008F2363 /* main.m */,
 				1B00E61F1CD0A222008F2363 /* LittleFun.pch */,
 			);
@@ -229,6 +231,15 @@
 			);
 			name = Snake;
 			path = ../Snake;
+			sourceTree = "<group>";
+		};
+		1BCBD59E1CDF29D800E98477 /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+				1BCBD5A11CDF29E700E98477 /* gu.mp3 */,
+				1BCBD59F1CDF29D800E98477 /* diceVoice.mp3 */,
+			);
+			path = Voice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,8 +349,9 @@
 				1B00E5E81CCE6054008F2363 /* LaunchScreen.storyboard in Resources */,
 				1B00E5E51CCE6054008F2363 /* Assets.xcassets in Resources */,
 				1B00E6271CD0D902008F2363 /* Background.jpg in Resources */,
+				1BCBD5A21CDF29E700E98477 /* gu.mp3 in Resources */,
 				1BCBD59C1CDEE5AE00E98477 /* app.png in Resources */,
-				1B00E6211CD0CB70008F2363 /* diceVoice.mp3 in Resources */,
+				1BCBD5A01CDF29D800E98477 /* diceVoice.mp3 in Resources */,
 				1B00E5E31CCE6054008F2363 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

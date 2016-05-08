@@ -164,18 +164,14 @@
     // 绘制背景
     CGContextFillRect(ctx, self.bounds);
 
-#if 0
+#if 1
     // 绘制文字
     [@"疯狂贪食蛇" drawAtPoint:CGPointMake(50 ,20)
            withAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
                            [UIFont fontWithName:@"Heiti SC" size: 40] , NSFontAttributeName,
                            [UIColor colorWithRed:1 green:0 blue:1 alpha:.4],
                            NSForegroundColorAttributeName, nil]];
-    [@"www.fkjava.org" drawAtPoint:CGPointMake(50 ,60)
-                    withAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
-                                    [UIFont fontWithName:@"Heiti SC" size: 26] , NSFontAttributeName,  
-                                    [UIColor colorWithRed:1 green:0 blue:1 alpha:.4],  
-                                    NSForegroundColorAttributeName, nil]];
+
 #endif
     
     // 设置蛇的填充颜色
@@ -195,7 +191,9 @@
     
     // 绘制食物图片
 //    [_foodImage drawAtPoint:CGPointMake(_foodPos.x*CELL_SIZE, _foodPos.y*CELL_SIZE)];
-    [_foodImage drawInRect:CGRectMake(_foodPos.x*CELL_SIZE, _foodPos.y*CELL_SIZE, CELL_SIZE, CELL_SIZE)];
+    if (_foodPos) {
+        [_foodImage drawInRect:CGRectMake(_foodPos.x*CELL_SIZE, _foodPos.y*CELL_SIZE, CELL_SIZE, CELL_SIZE)];
+    }
 }
 
 #pragma mark - 网格
