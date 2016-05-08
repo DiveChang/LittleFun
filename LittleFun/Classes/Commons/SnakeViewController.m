@@ -24,6 +24,10 @@
     self.view.backgroundColor = [UIColor yellowColor];
     self.navigationItem.title = @"贪食蛇";
 
+    if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+        self.navigationController.interactivePopGestureRecognizer.enabled = NO;
+    }
+    
     [self initSnakeView];
 }
 

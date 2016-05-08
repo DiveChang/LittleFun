@@ -164,7 +164,7 @@
     // 绘制背景
     CGContextFillRect(ctx, self.bounds);
 
-#if 1
+#if 0
     // 绘制文字
     [@"疯狂贪食蛇" drawAtPoint:CGPointMake(50 ,20)
            withAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
